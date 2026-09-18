@@ -15,6 +15,7 @@ copilot plugin marketplace add jomaxso/skills
 | [`atlassian`](./plugins/atlassian) | Manage Jira Cloud work items via `acli` and reusable Atlassian agents for review workflows | 1.2.0 |
 | [`database`](./plugins/database) | Manage MariaDB databases from the terminal using the native `mariadb` CLI client | 1.0.0 |
 | [`engineering`](./plugins/engineering) | Engineering planning and decision-support skills, including `grilly` for stress-testing ideas and requirements | 1.0.0 |
+| [`presentation`](./plugins/presentation) | Build PowerPoint decks as code with `deck-as-code` — a scripted source of truth driving PowerPoint COM (Windows + PowerPoint required) | 1.0.0 |
 
 ## Install a plugin
 
@@ -22,10 +23,12 @@ copilot plugin marketplace add jomaxso/skills
 # From marketplace
 copilot plugin install atlassian@jomaxso
 copilot plugin install engineering@jomaxso
+copilot plugin install presentation@jomaxso
 
 # Directly from GitHub
 copilot plugin install jomaxso/skills:plugins/atlassian
 copilot plugin install jomaxso/skills:plugins/engineering
+copilot plugin install jomaxso/skills:plugins/presentation
 ```
 
 ## Add a new plugin

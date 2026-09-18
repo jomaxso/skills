@@ -65,6 +65,27 @@
         "cli",
         "my.cnf"
       ]
+    },
+    {
+      "name": "presentation",
+      "source": "presentation",
+      "description": "Build PowerPoint decks as code — one scripted source of truth driving PowerPoint COM, with a design-token system, reusable shape primitives, generated SVG assets, and a build-render-inspect verification loop. Requires Windows and PowerPoint.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Johannes-Max Sorge",
+        "email": "jomaxso@outlook.com"
+      },
+      "license": "MIT",
+      "keywords": [
+        "presentation",
+        "powerpoint",
+        "pptx",
+        "deck",
+        "slides",
+        "powershell",
+        "svg",
+        "copilot"
+      ]
     }
   ]
 }

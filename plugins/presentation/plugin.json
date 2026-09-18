@@ -1,0 +1,12 @@
+{
+  "name": "presentation",
+  "description": "Presentation skills for GitHub Copilot. Includes deck-as-code for building and iterating on PowerPoint decks from a single scripted source of truth, with a design-token system, reusable shape primitives, generated SVG assets, and a build-render-inspect verification loop.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Johannes-Max Sorge",
+    "email": "jomaxso@outlook.com"
+  },
+  "license": "MIT",
+  "keywords": ["presentation", "powerpoint", "pptx", "deck", "slides", "powershell", "svg", "copilot"],
+  "skills": "skills/"
+}
